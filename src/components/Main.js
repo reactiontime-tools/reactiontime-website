@@ -105,11 +105,11 @@ class Main extends React.Component {
             <img src={jimmy} alt="jimmy" />
             <p>Jimmy Phong</p>
             <img src={tony} alt="tony" />
-            <p>Jimmy Phong</p>
+            <p>Tony Shen</p>
             <img src={christian} alt="christian" />
-            <p>Jimmy Phong</p>
+            <p>Christian Hubbard</p>
             <img src={jae} alt="jae" />
-            <p>Jimmy Phong</p>
+            <p>Jae Myung</p>
           </span>
           <p>
           </p>
