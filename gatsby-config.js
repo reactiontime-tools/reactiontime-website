@@ -20,4 +20,5 @@ module.exports = {
     },
     'gatsby-plugin-sass',
   ],
+  pathPrefix: "/reactiontime-website"
 }
