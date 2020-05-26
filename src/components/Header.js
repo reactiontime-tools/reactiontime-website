@@ -14,7 +14,8 @@ const Header = props => (
         </p>
       </div>
     </div>
-    <nav>
+    <nav style={{paddingRight:'15px'}}> 
+    {/* Remove this nav padding after we delete hourglass thing  */}
       <ul>
         <li>
           <button
@@ -31,7 +32,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Download
           </button>
         </li>
         <li>
