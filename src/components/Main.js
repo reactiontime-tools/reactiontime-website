@@ -25,6 +25,7 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
+        {/* Intro Section */}
         <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
@@ -36,29 +37,32 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
+
+          <h4> What can ReactionTime currently do? </h4>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            ReactionTime allows quick tests code snippets to be generated for the experimental Concurrent Mode,
+            streamlining testing with existing JavaScript Testing Framework, such as Jest and Enzyme.
+
           </p>
+
+          <h4> Current Limitations </h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            ReactionTime is an on-going project continously under construction.
+            At the current moment, our application assist with generating tests to ensure
+            Concurrent mode is enabled properly through several venues.
+          </p>
+
+          <h4> The Future of ReactionTime </h4>
+          <p>
+            The ReactionTime team is looking to integrate additional feature in the near future to improve developer experience, such as
+            adding a npm package that quickly injects tests to existing test frameworks in the near future,
+            utilizing a cross-platform application for prototyping code for seamless integration to your application,
+            and creating clear visual relationships to see all component connections with Concurrent Mode.
           </p>
           {close}
         </article>
 
+        {/* Work Section */}
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -88,6 +92,7 @@ class Main extends React.Component {
           {close}
         </article>
 
+        {/* About Section */}
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -125,6 +130,7 @@ class Main extends React.Component {
           {close}
         </article>
 
+        {/* Contact Section */}
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
