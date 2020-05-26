@@ -25,6 +25,7 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
+        {/* Intro Section */}
         <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
@@ -59,6 +60,7 @@ class Main extends React.Component {
           {close}
         </article>
 
+        {/* Work Section */}
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -88,6 +90,7 @@ class Main extends React.Component {
           {close}
         </article>
 
+        {/* About Section */}
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -125,6 +128,7 @@ class Main extends React.Component {
           {close}
         </article>
 
+        {/* Contact Section */}
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
