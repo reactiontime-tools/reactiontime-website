@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Dimension V2',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    title: 'ReactionTime.app',
+    author: 'Tony Shen, Jimmy Phong, Christian Hubbard, Jae Myung',
+    description: 'A simpler way to write tests for Concurrent Mode',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/fav-icon.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
