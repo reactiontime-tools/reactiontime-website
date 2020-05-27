@@ -54,11 +54,12 @@
         'filter #{_duration(article)} ease-in-out'
       )
     );
-    background-image: url('../../images/0-bg.jpg');
+    background-image: url('../../images/2-bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
+    opacity: 0.4;
   }
 
   .body.is-article-visible & {
