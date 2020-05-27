@@ -70,25 +70,30 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Download</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Please click one of the links below to download the version of ReactionTime associated with your operating system:
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <ul style={
+            {
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-around',
+            listStyleType: 'none',
+            paddingRight: '30px',
+            paddingTop: '10px'
+            }
+            }>
+            <li>
+              <button>Mac/OSX</button>
+            </li>
+            <li>
+              <button>Windows</button>
+            </li>
+          </ul>
           {close}
         </article>
 
@@ -101,31 +106,36 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image minor"
+          {/* <span className="image minor" */}
+          <span
             style={{
+              display:'flex',
               textAlign: "center",
-              marginLeft: "33%"
+              alignItems: 'center',
+              justifyContent: 'space-around'
             }}
           >
-            <img src={jimmy} alt="jimmy" />
-            <p>Jimmy Phong</p>
-            <img src={tony} alt="tony" />
-            <p>Tony Shen</p>
-            <img src={christian} alt="christian" />
-            <p>Christian Hubbard</p>
-            <img src={jae} alt="jae" />
-            <p>Jae Myung</p>
+            <span>
+              <img src={jimmy} alt="jimmy" />
+              <p>Jimmy Phong</p>
+              <img src={tony} alt="tony" />
+              <p>Tony Shen</p>
+            </span> 
+            <span>
+              <img src={christian} alt="christian" />
+              <p>Christian Hubbard</p>
+              <img src={jae} alt="jae" />
+              <p>Jae Myung</p>
+            </span>
           </span>
           <p>
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            We built ReactionTime in order to simplify testing in React's concurrent mode. While building our own concurrent applications, we realized that 
+            the testing procedure is a little complicated. We wanted to build lightweight, straightforward tests that could be dropped into any concurrent application, while still being useful.
+            You can still unit test your components in the same way you always would in React; our tests are specifically testing concurrency setup, component suspension, and fallback.
+            We're proud of the tests we currently offer, but also plan to add more tests soon. ReactionTime is an open source project. If you would like to contribute, please 
+            visit our GitHub. Thanks!
           </p>
           {close}
         </article>
@@ -139,7 +149,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Got a Question?</h2>
-          <h3 className="">Let us know below!</h3>
+          <h3 className="">Let us know below, or contact us directly on <a href="https://github.com/oslabs-beta/ReactionTime">GitHub</a>.</h3>
+          <h3></h3>
           <br />
           <form method="post" action="#">
             <div className="field half first">
@@ -163,7 +174,7 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-          <ul className="icons">
+          {/* <ul className="icons">
             <li>
               <a
                 href="https://twitter.com/"
@@ -190,7 +201,7 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
             </li>
-          </ul>
+          </ul> */}
           {close}
         </article>
       </div>
