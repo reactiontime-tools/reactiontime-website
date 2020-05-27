@@ -79,14 +79,14 @@ class Main extends React.Component {
           </p>
           <ul style={
             {
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-around',
-            listStyleType: 'none',
-            paddingRight: '30px',
-            paddingTop: '10px'
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-around',
+              listStyleType: 'none',
+              paddingRight: '30px',
+              paddingTop: '10px'
             }
-            }>
+          }>
             <li>
               <button>Mac/OSX</button>
             </li>
@@ -109,32 +109,119 @@ class Main extends React.Component {
           {/* <span className="image minor" */}
           <span
             style={{
-              display:'flex',
+              display: 'flex',
               textAlign: "center",
               alignItems: 'center',
               justifyContent: 'space-around'
             }}
           >
             <span>
+              {/* Begin Jimmy */}
               <img src={jimmy} alt="jimmy" />
+              {/* Start Logo Position */}
+              <div className="" style={{
+                display: 'flex',
+                textAlign: "center",
+                alignItems: 'center',
+                justifyContent: 'space-around',
+                paddingRight: '4rem',
+                paddingLeft: '4rem'
+              }}>
+                {/* End Logo Position */}
+                {/*Start Logos to Contact Jimmy */}
+                <a href="https://github.com/jayacados" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="http://www.linkedin.com/in/jphongmph/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </div>
+              {/* End Logos to Contact Jimmy */}
               <p>Jimmy Phong</p>
+              {/* End Jimmy */}
+
+              {/* Begin Tony */}
               <img src={tony} alt="tony" />
+              {/* Start Logo Position */}
+              <div className="" style={{
+                display: 'flex',
+                textAlign: "center",
+                alignItems: 'center',
+                justifyContent: 'space-around',
+                paddingRight: '4rem',
+                paddingLeft: '4rem'
+              }}>
+                {/* End Logo Position */}
+                {/*Start Logos to Contact Tony */}
+                <a href="https://github.com/tshen815" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="http://www.linkedin.com/in/jphongmph/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </div>
+              {/* End Logos to Contact Tony */}
               <p>Tony Shen</p>
-            </span> 
+              {/* End Tony */}
+
+            </span>
             <span>
+              {/* Begin Christian */}
               <img src={christian} alt="christian" />
+              {/* Start Logo Position */}
+              <div className="" style={{
+                display: 'flex',
+                textAlign: "center",
+                alignItems: 'center',
+                justifyContent: 'space-around',
+                paddingRight: '4rem',
+                paddingLeft: '4rem'
+              }}>
+                {/* End Logo Position */}
+                {/*Start Logos to Contact Christian */}
+                <a href="https://github.com/christianhubbard" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="http://www.linkedin.com/in/christianbegor/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </div>
+              {/* End Logos to Contact Christian */}
               <p>Christian Hubbard</p>
+              {/* End Christian */}
+
+              {/* Begin Jae */}
               <img src={jae} alt="jae" />
+              {/* Start Logo Position */}
+              <div className="" style={{
+                display: 'flex',
+                textAlign: "center",
+                alignItems: 'center',
+                justifyContent: 'space-around',
+                paddingRight: '4rem',
+                paddingLeft: '4rem'
+              }}>
+                {/* End Logo Position */}
+                {/*Start Logos to Contact Jae */}
+                <a href="https://github.com/jhm304" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="http://www.linkedin.com/in/jaemyung/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </div>
+              {/* End Logos to Contact Jae */}
               <p>Jae Myung</p>
+              {/* End Jae */}
             </span>
           </span>
           <p>
           </p>
           <p>
-            We built ReactionTime in order to simplify testing in React's concurrent mode. While building our own concurrent applications, we realized that 
+            We built ReactionTime in order to simplify testing in React's concurrent mode. While building our own concurrent applications, we realized that
             the testing procedure is a little complicated. We wanted to build lightweight, straightforward tests that could be dropped into any concurrent application, while still being useful.
             You can still unit test your components in the same way you always would in React; our tests are specifically testing concurrency setup, component suspension, and fallback.
-            We're proud of the tests we currently offer, but also plan to add more tests soon. ReactionTime is an open source project. If you would like to contribute, please 
+            We're proud of the tests we currently offer, but also plan to add more tests soon. ReactionTime is an open source project. If you would like to contribute, please
             visit our GitHub. Thanks!
           </p>
           {close}
