@@ -3,6 +3,8 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import clock01 from '../images/clock01.jpg'
+import download01 from '../images/download01.jpg'
 import jimmy from '../images/jimmy.jpg'
 import tony from '../images/tony.jpg'
 import christian from '../images/christian.jpg'
@@ -35,7 +37,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img style={{ opacity: 0.75 }} src={clock01} alt="" />
           </span>
 
           <h4> What can ReactionTime currently do? </h4>
@@ -62,7 +64,7 @@ class Main extends React.Component {
           {close}
         </article>
 
-        {/* Work Section */}
+        {/* Download Section */}
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -72,7 +74,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Download</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img style={{ opacity: 0.6 }} src={download01} alt="" />
           </span>
           <p>
             Please click one of the links below to download the version of ReactionTime associated with your operating system:
