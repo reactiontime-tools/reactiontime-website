@@ -139,7 +139,7 @@ class Main extends React.Component {
                 </a>
               </div>
               {/* End Logos to Contact jimmyphong */}
-              <p>jimmyphong Phong</p>
+              <p>Jimmy Phong</p>
               {/* End jimmyphong */}
 
               {/* Begin tshen */}
@@ -163,7 +163,7 @@ class Main extends React.Component {
                 </a>
               </div>
               {/* End Logos to Contact tshen */}
-              <p>tshen Shen</p>
+              <p>Tony Shen</p>
               {/* End tshen */}
 
             </span>
@@ -181,15 +181,15 @@ class Main extends React.Component {
               }}>
                 {/* End Logo Position */}
                 {/*Start Logos to Contact christianhubbard */}
-                <a href="https://github.com/christianhubbardhubbard" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                <a href="https://github.com/christianhubbard" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i class="fa fa-github"></i>
                 </a>
-                <a href="http://www.linkedin.com/in/christianhubbardbegor/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                <a href="http://www.linkedin.com/in/christianbegor/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i className="fa fa-linkedin"></i>
                 </a>
               </div>
               {/* End Logos to Contact christianhubbard */}
-              <p>christianhubbard Hubbard</p>
+              <p>Christian Hubbard</p>
               {/* End christianhubbard */}
 
               {/* Begin jaemyung */}
@@ -208,12 +208,12 @@ class Main extends React.Component {
                 <a href="https://github.com/jhm304" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i class="fa fa-github"></i>
                 </a>
-                <a href="http://www.linkedin.com/in/jaemyungmyung/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                <a href="http://www.linkedin.com/in/jaemyung/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i className="fa fa-linkedin"></i>
                 </a>
               </div>
               {/* End Logos to Contact jaemyung */}
-              <p>jaemyung Myung</p>
+              <p>Jae Myung</p>
               {/* End jaemyung */}
             </span>
           </span>
