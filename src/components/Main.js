@@ -3,12 +3,12 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
-import clock01 from '../images/clock01.jpg'
-import download01 from '../images/download01.jpg'
-import jimmy from '../images/jimmy.jpg'
-import tony from '../images/tony.jpg'
-import christian from '../images/christian.jpg'
-import jae from '../images/jae.jpg'
+import clock from '../images/clock.jpg'
+import downloadourstuff01 from '../images/downloadourstuff01.jpg'
+import jimmyphong from '../images/jimmyphong.jpg'
+import tshen from '../images/tshen.jpg'
+import christianhubbard from '../images/christianhubbard.jpg'
+import jaemyung from '../images/jaemyung.jpg'
 
 class Main extends React.Component {
   render() {
@@ -37,7 +37,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img style={{ opacity: 0.75 }} src={clock01} alt="" />
+            <img style={{ opacity: 0.75 }} src={clock} alt="" />
           </span>
 
           <h4> What can ReactionTime currently do? </h4>
@@ -64,7 +64,7 @@ class Main extends React.Component {
           {close}
         </article>
 
-        {/* Download Section */}
+        {/* downloadourstuff Section */}
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -72,12 +72,12 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Download</h2>
+          <h2 className="major">downloadourstuff</h2>
           <span className="image main">
-            <img style={{ opacity: 0.6 }} src={download01} alt="" />
+            <img style={{ opacity: 0.6 }} src={downloadourstuff01} alt="" />
           </span>
           <p>
-            Please click one of the links below to download the version of ReactionTime associated with your operating system:
+            Please click one of the links below to downloadourstuff the version of ReactionTime associated with your operating system:
           </p>
           <ul style={
             {
@@ -118,8 +118,8 @@ class Main extends React.Component {
             }}
           >
             <span>
-              {/* Begin Jimmy */}
-              <img src={jimmy} alt="jimmy" />
+              {/* Begin jimmyphong */}
+              <img src={jimmyphong} alt="jimmyphong" />
               {/* Start Logo Position */}
               <div className="" style={{
                 display: 'flex',
@@ -130,7 +130,7 @@ class Main extends React.Component {
                 paddingLeft: '4rem'
               }}>
                 {/* End Logo Position */}
-                {/*Start Logos to Contact Jimmy */}
+                {/*Start Logos to Contact jimmyphong */}
                 <a href="https://github.com/jayacados" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i class="fa fa-github"></i>
                 </a>
@@ -138,12 +138,12 @@ class Main extends React.Component {
                   <i className="fa fa-linkedin"></i>
                 </a>
               </div>
-              {/* End Logos to Contact Jimmy */}
-              <p>Jimmy Phong</p>
-              {/* End Jimmy */}
+              {/* End Logos to Contact jimmyphong */}
+              <p>jimmyphong Phong</p>
+              {/* End jimmyphong */}
 
-              {/* Begin Tony */}
-              <img src={tony} alt="tony" />
+              {/* Begin tshen */}
+              <img src={tshen} alt="tshen" />
               {/* Start Logo Position */}
               <div className="" style={{
                 display: 'flex',
@@ -154,7 +154,7 @@ class Main extends React.Component {
                 paddingLeft: '4rem'
               }}>
                 {/* End Logo Position */}
-                {/*Start Logos to Contact Tony */}
+                {/*Start Logos to Contact tshen */}
                 <a href="https://github.com/tshen815" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i class="fa fa-github"></i>
                 </a>
@@ -162,14 +162,14 @@ class Main extends React.Component {
                   <i className="fa fa-linkedin"></i>
                 </a>
               </div>
-              {/* End Logos to Contact Tony */}
-              <p>Tony Shen</p>
-              {/* End Tony */}
+              {/* End Logos to Contact tshen */}
+              <p>tshen Shen</p>
+              {/* End tshen */}
 
             </span>
             <span>
-              {/* Begin Christian */}
-              <img src={christian} alt="christian" />
+              {/* Begin christianhubbard */}
+              <img src={christianhubbard} alt="christianhubbard" />
               {/* Start Logo Position */}
               <div className="" style={{
                 display: 'flex',
@@ -180,20 +180,20 @@ class Main extends React.Component {
                 paddingLeft: '4rem'
               }}>
                 {/* End Logo Position */}
-                {/*Start Logos to Contact Christian */}
-                <a href="https://github.com/christianhubbard" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                {/*Start Logos to Contact christianhubbard */}
+                <a href="https://github.com/christianhubbardhubbard" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i class="fa fa-github"></i>
                 </a>
-                <a href="http://www.linkedin.com/in/christianbegor/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                <a href="http://www.linkedin.com/in/christianhubbardbegor/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i className="fa fa-linkedin"></i>
                 </a>
               </div>
-              {/* End Logos to Contact Christian */}
-              <p>Christian Hubbard</p>
-              {/* End Christian */}
+              {/* End Logos to Contact christianhubbard */}
+              <p>christianhubbard Hubbard</p>
+              {/* End christianhubbard */}
 
-              {/* Begin Jae */}
-              <img src={jae} alt="jae" />
+              {/* Begin jaemyung */}
+              <img src={jaemyung} alt="jaemyung" />
               {/* Start Logo Position */}
               <div className="" style={{
                 display: 'flex',
@@ -204,17 +204,17 @@ class Main extends React.Component {
                 paddingLeft: '4rem'
               }}>
                 {/* End Logo Position */}
-                {/*Start Logos to Contact Jae */}
+                {/*Start Logos to Contact jaemyung */}
                 <a href="https://github.com/jhm304" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i class="fa fa-github"></i>
                 </a>
-                <a href="http://www.linkedin.com/in/jaemyung/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                <a href="http://www.linkedin.com/in/jaemyungmyung/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i className="fa fa-linkedin"></i>
                 </a>
               </div>
-              {/* End Logos to Contact Jae */}
-              <p>Jae Myung</p>
-              {/* End Jae */}
+              {/* End Logos to Contact jaemyung */}
+              <p>jaemyung Myung</p>
+              {/* End jaemyung */}
             </span>
           </span>
           <p>
