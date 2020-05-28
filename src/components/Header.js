@@ -14,8 +14,8 @@ const Header = props => (
         </p>
       </div>
     </div>
-    <nav style={{paddingRight:'15px'}}> 
-    {/* Remove this nav padding after we delete hourglass thing  */}
+    <nav style={{ paddingRight: '15px' }}>
+      {/* Remove this nav padding after we delete hourglass thing  */}
       <ul>
         <li>
           <button
