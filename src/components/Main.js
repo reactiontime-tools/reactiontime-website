@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+// import pic01 from '../images/pic01.jpg'
+// import pic02 from '../images/pic02.jpg'
+// import pic03 from '../images/pic03.jpg'
 import clock from '../images/clock.jpg'
-import downloadourstuff01 from '../images/downloadourstuff01.jpg'
+import downloadourstuff from '../images/downloadourstuff.jpg'
 import jimmyphong from '../images/jimmyphong.jpg'
 import tshen from '../images/tshen.jpg'
 import christianhubbard from '../images/christianhubbard.jpg'
@@ -72,12 +72,12 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">downloadourstuff</h2>
+          <h2 className="major">Download</h2>
           <span className="image main">
-            <img style={{ opacity: 0.6 }} src={downloadourstuff01} alt="" />
+            <img style={{ opacity: 0.6 }} src={downloadourstuff} alt="" />
           </span>
           <p>
-            Please click one of the links below to downloadourstuff the version of ReactionTime associated with your operating system:
+            Please click one of the links below to download the version of ReactionTime associated with your operating system:
           </p>
           <ul style={
             {

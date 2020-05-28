@@ -32,7 +32,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            downloadourstuff
+            Download
           </button>
         </li>
         <li>
