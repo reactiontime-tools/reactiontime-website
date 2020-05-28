@@ -1,7 +1,7 @@
 language: node_js
 node_js: 
 - 12.16.3
-install: yarn
+install: npm install
 script: gatsby build
 deploy:
   provider: s3
