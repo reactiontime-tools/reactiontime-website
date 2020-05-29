@@ -10,6 +10,7 @@ import tshen from '../images/tshen.jpg'
 import christianhubbard from '../images/christianhubbard.jpg'
 import jaemyung from '../images/jaemyung.jpg'
 
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -90,10 +91,18 @@ class Main extends React.Component {
             }
           }>
             <li>
-              <button>Mac/OSX</button>
+                <button>
+                  <a href="https://github.com/oslabs-beta/ReactionTime/releases/download/1.0/ReactionTime-1.1.0.dmg">
+                    <p>Mac/OSX</p>
+                  </a>
+                </button>
             </li>
             <li>
-              <button>Windows</button>
+              <button>
+                <a href="https://github.com/oslabs-beta/ReactionTime/releases/download/1.0/ReactionTime.Setup.1.1.0.exe">
+                  <p>Windows</p>
+                </a>
+              </button>
             </li>
           </ul>
           {close}
