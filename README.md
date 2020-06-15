@@ -9,4 +9,4 @@ ReactionTime is an application to help users build tests for the newest features
 - Please navigate to the following repo: https://github.com/oslabs-beta/ReactionTime
 
 ## Team
-Jimmy Phong, Christian Hubbard, Jae Myung, Tony Shen
+Christian Hubbard [@christianhubbard](https://github.com/christianhubbard "Christian's Github"), Jimmy Phong [@jayacados](https://github.com/jayacados "Jimmy's Github"), Jae Myung [@jhm304](https://github.com/jhm304 "Jae's Github"), Tony Shen [@tshen815](https://github.com/tshen815 "Tony's Github")
