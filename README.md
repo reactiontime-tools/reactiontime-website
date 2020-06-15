@@ -8,11 +8,5 @@ ReactionTime is an application to help users build tests for the newest features
 ## Looking for the ReactionTime application?
 - Please navigate to the following repo: https://github.com/oslabs-beta/ReactionTime
 
-## How to install
-Currently under construction...
-
-## Quick Start
-Currently under construction...
-
 ## Team
-Currently under construction...
+Jimmy Phong, Christian Hubbard, Jae Myung, Tony Shen
