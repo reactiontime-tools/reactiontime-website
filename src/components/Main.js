@@ -91,11 +91,11 @@ class Main extends React.Component {
             }
           }>
             <li>
-                <button>
-                  <a href="https://github.com/oslabs-beta/ReactionTime/releases/download/1.0/ReactionTime-1.1.0.dmg">
-                    <p>Mac/OSX</p>
-                  </a>
-                </button>
+              <button>
+                <a href="https://github.com/oslabs-beta/ReactionTime/releases/download/1.0/ReactionTime-1.1.0.dmg">
+                  <p>Mac/OSX</p>
+                </a>
+              </button>
             </li>
             <li>
               <button>
@@ -167,7 +167,7 @@ class Main extends React.Component {
                 <a href="https://github.com/tshen815" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i class="fa fa-github"></i>
                 </a>
-                <a href="http://www.linkedin.com/in/jphongmph/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
+                <a href="https://www.linkedin.com/in/shaoshen815/" target="_blank" className="btn-icon-only rounded-circle ml-1 btn btn-info">
                   <i className="fa fa-linkedin"></i>
                 </a>
               </div>
