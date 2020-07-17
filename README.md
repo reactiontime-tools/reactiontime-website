@@ -1,5 +1,5 @@
 ## reactiontime-website
-![Preview](https://i.ibb.co/XZN2tgf/Screen-Shot-2020-06-12-at-6-07-50-PM.png)
+![preview](https://i.imgur.com/2yEJsGS.jpg)
 
 This site is currently deployed [here](http://reactiontimeapp.com)
 
